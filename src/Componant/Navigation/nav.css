@@ -1,0 +1,105 @@
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color: #1A1F1A;
+   position: fixed;
+   top: 0;
+   left: 0;
+   
+}
+.nav nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: none;
+    position: relative;
+    color: white;
+    padding: 10px;
+    font-family: "Manrope", sans-serif;
+    outline: none;
+    list-style: none;
+    text-decoration: none;  
+ }
+   .nav__list {
+    display: flex;
+    gap: 2.5rem;
+    outline: none;
+    list-style: none;
+    text-decoration: none;  
+   }
+   
+   .nav__link {
+    color: white;
+    font-weight: 500;
+    transition: color 0.4s;
+    text-decoration: none;
+    cursor: pointer;
+   }
+   .mobile-container{
+    display: none;
+}
+
+ .toggle{
+    display: none;
+ }
+ 
+ .nav__close{
+        display: none;
+    }
+
+   @media screen and (max-width: 1150px) {
+        /* .nav{display: none;} */
+        .mobile-container{
+            background-color: #1A1F1A;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            color: wheat;
+            z-index: 100;
+            top: 80px;
+            display: flex;
+            z-index: 100px;
+            flex-direction: column;
+            justify-content: start;
+            align-items: baseline;
+            font-family: "Manrope", sans-serif;
+        }
+       
+        .nav__list{
+            height: 20px;
+            display: none;
+            
+        }
+        .nav__list_mobile{
+            text-decoration: none;
+            outline: none;
+            list-style-type: none;
+            z-index: 100px;
+        }
+        .nav__item{
+            list-style: none;
+            
+        }
+        .nav__itemButton{
+            text-decoration: none;
+            padding: 10px;
+            background-color:#FFFF;
+            color: #7AA396;
+            font-family: "Manrope", sans-serif;
+            outline: none;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+}
+        .nav__itemButton:nth-child(1) {
+                text-decoration: none;
+                
+        }
+        .toggle{
+            display: block;
+            cursor: pointer;
+        }
+
+   }
