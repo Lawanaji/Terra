@@ -12,7 +12,7 @@ const HeroSection = () => {
 <div className='content'>
 <h1>Gain in-demand <br /> skills for <strong>free</strong></h1>
 <p>Join the Terra Learning Internship to learn and get the hands-on experience needed. Our interns are ready to take on entry-level and junior positions in just 8 weeks.</p>
-<button>Sign up for Free</button>
+<button className='hero_button'>Sign up for Free</button>
 
 </div>
   <img src={HeroImage} alt="" />
