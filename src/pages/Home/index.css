@@ -4,7 +4,6 @@ main{
    
 }
 
-
 .home_container{
     width: 100%;
     height: 60vh;
@@ -46,6 +45,9 @@ main{
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+}
+.hero_button:hover{
+    background-color: #95b268;
 }
 .images{
     margin-top: 30px;
