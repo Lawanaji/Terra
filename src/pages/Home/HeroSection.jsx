@@ -16,16 +16,12 @@ const HeroSection = () => {
 
 </div>
   <img src={HeroImage} alt="" />
-
- 
-
 </div>
-<div className='images'>
-<img src={jobbermanImage} alt="" />
-<img src={ravenImage} alt="" />
-<img src={hireImage} alt="" />
-</div>
-   
+            <div className='images'>
+            <img src={jobbermanImage} alt="" />
+            <img src={ravenImage} alt="" />
+            <img src={hireImage} alt="" />
+            </div>
    </>
   )
 }
