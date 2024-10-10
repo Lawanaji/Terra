@@ -1,27 +1,47 @@
 .blogWrapper {
     width: 80%;
-    height: auto;
+    height: 400px;
     padding: 0 10%;
+    margin-top: -30px;
+    background-image: url('../../assets/img/blog-header-bg.png');
+    background-color: white;
 }
+
 .blogHead {
-    margin-top: 10%;
+    padding-top: 20%;
+    margin-bottom: 10%;
     font-size: 2.5em;
     font-weight: 700;
     line-height: 1em;
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .blogParag {
-    margin-top: -10px;
+    margin-top: -80px;
     font-size: 1.2em;
     font-weight: 400;
     line-height: 1em;
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .post {
     padding-top: 10%;
 }
+
 .underline {
     margin-top: 50px;
+}
+
+@media screen and (max-width: 1150px) {
+    .blogWrapper {
+        width: 90%;
+        height: 180px;
+        padding: 0 5%;
+    }
+    .blogParag {
+        margin-top: -20px;
+        font-size: 1em;
+    }
 }
