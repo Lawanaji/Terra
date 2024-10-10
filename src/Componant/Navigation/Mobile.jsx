@@ -13,7 +13,7 @@ const Mobile = () => {
       <ul className="nav__list_mobile">
         <li className="nav__item"><NavLink className="nav__link" to={""}>Bootcamp</NavLink> </li>
         
-        <li className="nav__item"><NavLink className="nav__link" to={""}>Blog</NavLink></li>
+        <li className="nav__item"><NavLink className="nav__link" to={"/blog"}>Blog</NavLink></li>
         
       <li className="nav__itemButton"> <NavLink className="nav__linkButton" to={""}>Login</NavLink></li>
       </ul>
