@@ -1,17 +1,17 @@
 import React from 'react'
 import './index.css'
 import HeroSection from './HeroSection'
+import SubSection from './SubSection'
+import Learn from './Learn'
 const Home = () => {
   return (
     <main>
     <div className=' home_container'>
-      <div className='container' id='Hero_section'>
-       <h3>Applications for the internship is currently open!</h3>
-        <HeroSection />
+    <HeroSection />
+
+      <SubSection />
       </div>
-    </div>
-
-
+      <Learn />
     </main>
   )
 }

@@ -2,10 +2,9 @@
     width: 100%;
     height: 80px;
     background-color: #1A1F1A;
-   position: sticky;
-   z-index: 100;
-   top: 0;
-   left: 0;
+    position: fixed;
+    /* top: 10px; */
+    z-index: 100;
    
 }
 .nav nav{
@@ -13,7 +12,7 @@
     justify-content: space-between;
     align-items: center;
     outline: none;
-    position: relative;
+    /* position: relative; */
     color: white;
     padding: 10px;
     font-family: "Manrope", sans-serif;
@@ -59,7 +58,7 @@
             z-index: 100;
             top: 80px;
             display: flex;
-            z-index: 100px;
+            z-index: 100;
             flex-direction: column;
             justify-content: start;
             align-items: baseline;
