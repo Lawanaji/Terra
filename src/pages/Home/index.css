@@ -80,6 +80,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: self-start;
+    
 }
 
 .learn_container img {
