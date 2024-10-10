@@ -37,10 +37,10 @@
     font-style: normal;
 }
 .editedSide {
-    width: 50%;
+    width: fit-content;
     background-color: rgb(204, 201, 201);
     text-align: center;
-    padding-top: 10px;
+    padding: 10px 10px;
     border-radius: 20px;
 }
 .noneditedSide {
@@ -50,4 +50,24 @@
 a {
     text-decoration: none;
     color: black;
+}
+@media screen and (max-width: 1150px) {
+    .blogPostWrapper {
+        width: 100%;
+    }
+    .postHeader{
+        width: fit-content;
+        font-size: 0.7em;
+    }
+    .postTopic {
+        width: fit-content;
+        font-size: 1.1em;
+    }
+    .postDetails {
+        width: 62%;
+    }
+    .editedSide {
+        width: 106px;
+        padding: 10px 0px;
+    }
 }
