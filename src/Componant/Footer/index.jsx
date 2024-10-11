@@ -3,11 +3,11 @@ import logo from  '../../assets/img/terra.a5b4c8a8.svg'
 import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
-    <footer className="bg-[#1A1F1A] font-body-new h-screen text-white mb-16 lg:mb-0 p-24">
+    <footer className="bg-[#1A1F1A] font-body-new h-full text-white ">
     <main>
       {/* First Section */}
-      <section className="container lg:grid lg:grid-cols-5 gap-12">
-        <div className="lg:col-span-3 mb-16 lg:mb-0">
+      <section className=" md:flex justify-between container py-24">
+        <div className="">
           <header className="leading-8 mb-8">
             <h1 className="font-bold text-4xl">Stay in the loop</h1>
             <p className="text-sm">
@@ -30,18 +30,25 @@ const Footer = () => {
             </button>
           </form>
 
-     <div className='py-10'>
+     <div className='py-10  md:w-[40%] flex flex-col gap-10'>
                 <h1 className='flex gap-3 justify-start items-center text-lg font-semibold'>
                 <img src={logo} alt="" />
                 Building Africa’s workforce
                 </h1>
-            <p>To achieve the future that we dream of, we must equip ourselves with the required skills to put us on the radar of employers all over the world</p>
-              <Link to="CONTACT US">CONTACT US</Link>
+            <p className='text-pretty'>To achieve the future that we dream of, <br/>we must equip ourselves with the required skills to put us on the radar of employers all over the world</p>
+                <ul className='space-y-3'>
+                <Link to="CONTACT US">CONTACT US</Link>
+             <p> Get in touch</p>
+              <li>+234-907-957-7366</li>
+              <li>hello@sidehustle.ng</li>
+              <li>Olorunda abaa, Akobo, Ibadan, NG</li>
+                </ul>
           </div>
+          <p className='w-full'>   © Copyright. All Rights Reserved Terra Holding Limited</p>
         </div>
         
         {/* Social Media Buttons */}
-        <div className="lg:col-span-2 mx-auto mt-auto">
+        <div className="">
           <p className="text-3xl mb-10 font-bold">Follow us</p>
           <div className="flex gap-x-5">
             {/* LinkedIn Button */}
@@ -66,6 +73,7 @@ const Footer = () => {
           </div>
         </div>
         
+       
       </section>
     </main>
   </footer>
