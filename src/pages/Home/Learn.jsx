@@ -15,7 +15,7 @@ const Learn = () => {
 
 
     <div className='md:flex gap-2 justify-between items-start '>
-        <img src={dashboardImage} alt="" className=' md:w-[50%] h-[50%] ' />
+        <img src={dashboardImage} alt="" className=' md:w-[50%] h-[50%] object-contain ' />
      
         <div className=' md:mt-[6rem]'>
       <h1 className='text-3xl md:text-4xl font-bold'>  <strong className='text-[#52A350]'>Learn</strong> in-demand skills seamlessly </h1>
