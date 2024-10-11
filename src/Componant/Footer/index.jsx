@@ -1,8 +1,9 @@
 import React from 'react'
-
+import logo from  '../../assets/img/terra.a5b4c8a8.svg'
+import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
-    <footer className="bg-[#1A1F1A] font-body-new text-white mb-16 lg:mb-0 p-24">
+    <footer className="bg-[#1A1F1A] font-body-new h-screen text-white mb-16 lg:mb-0 p-24">
     <main>
       {/* First Section */}
       <section className="container lg:grid lg:grid-cols-5 gap-12">
@@ -28,6 +29,15 @@ const Footer = () => {
               Subscribe
             </button>
           </form>
+
+     <div className='py-10'>
+                <h1 className='flex gap-3 justify-start items-center text-lg font-semibold'>
+                <img src={logo} alt="" />
+                Building Africa’s workforce
+                </h1>
+            <p>To achieve the future that we dream of, we must equip ourselves with the required skills to put us on the radar of employers all over the world</p>
+              <Link to="CONTACT US">CONTACT US</Link>
+          </div>
         </div>
         
         {/* Social Media Buttons */}
@@ -55,6 +65,7 @@ const Footer = () => {
             </button>
           </div>
         </div>
+        
       </section>
     </main>
   </footer>

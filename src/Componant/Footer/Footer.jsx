@@ -1,6 +1,6 @@
 const Footer = () => { 
     return ( 
-      <footer className="bg-[#1A1F1A] font-body-new text-white mb-16 lg:mb-0 p-24">
+      <footer className="bg-[#1A1F1A] h-screen font-body-new text-white mb-16 lg:mb-0 p-24">
         <main>
           {/* First Section */}
           <section className="container lg:grid lg:grid-cols-5 gap-12">

@@ -24,18 +24,19 @@ const Navbar = () => {
 
       <div className='nav'>
         <nav className='container'>
-          <NavLink to="/"><img src={logo} alt="Logo" /></NavLink>
           
-          <div>
+          <div className='flex justify-between items-center md:gap-[15rem] w-full'>
+          <NavLink to="/"><img src={logo} alt="Logo" /></NavLink>
 
-          <ul className="nav__list">
+          <ul className='hidden md:flex justify-start items-center gap-[10rem]'>
             <li className="nav__item"><NavLink className="nav__link" to="">Bootcamp</NavLink></li>
             <li className="nav__item"><NavLink className="nav__link" to="/blog">Blog</NavLink></li>
-            <li className="nav__item"><NavLink className="nav__link" to="/login">Login</NavLink></li>
           </ul>
+
+            <li className="hidden md:block"><NavLink className="nav__link" to="/login">Login</NavLink></li>
           </div>
 
-          <div onClick={toggleMenu} className='toggle'>
+          <div onClick={toggleMenu} className='block md:hidden scale-105 transition duration-300'>
             {showMobileNav ? <X size={30} color='#499B48' /> : <List size={30} color='#499B48' />}
           </div>
         </nav>
