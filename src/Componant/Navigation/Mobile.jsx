@@ -15,7 +15,7 @@ const Mobile = () => {
         
         <li className="nav__item"><NavLink className="nav__link" to={"/blog"}>Blog</NavLink></li>
         
-      <li className="nav__itemButton"> <NavLink className="nav__linkButton" to={""}>Login</NavLink></li>
+      <li className="nav__itemButton"> <NavLink className="nav__linkButton" to={"/login"}>Login</NavLink></li>
       </ul>
 
 

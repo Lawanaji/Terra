@@ -31,7 +31,7 @@ const Navbar = () => {
           <ul className="nav__list">
             <li className="nav__item"><NavLink className="nav__link" to="">Bootcamp</NavLink></li>
             <li className="nav__item"><NavLink className="nav__link" to="/blog">Blog</NavLink></li>
-            <li className="nav__item"><NavLink className="nav__link" to="">Login</NavLink></li>
+            <li className="nav__item"><NavLink className="nav__link" to="/login">Login</NavLink></li>
           </ul>
           </div>
 
