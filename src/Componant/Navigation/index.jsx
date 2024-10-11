@@ -26,11 +26,14 @@ const Navbar = () => {
         <nav className='container'>
           <NavLink to="/"><img src={logo} alt="Logo" /></NavLink>
           
+          <div>
+
           <ul className="nav__list">
             <li className="nav__item"><NavLink className="nav__link" to="">Bootcamp</NavLink></li>
             <li className="nav__item"><NavLink className="nav__link" to="/blog">Blog</NavLink></li>
             <li className="nav__item"><NavLink className="nav__link" to="">Login</NavLink></li>
           </ul>
+          </div>
 
           <div onClick={toggleMenu} className='toggle'>
             {showMobileNav ? <X size={30} color='#499B48' /> : <List size={30} color='#499B48' />}

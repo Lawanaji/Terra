@@ -3,7 +3,6 @@ import Layout from "./Componant/Layout/Layout"
 import Home from "./pages/Home/Home"
 import Blog from "./pages/Blog/Blog"
 
-
 function App() {
  
   return (
