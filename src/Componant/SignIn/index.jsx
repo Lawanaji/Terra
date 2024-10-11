@@ -39,9 +39,11 @@ const SignIn = () => {
             <h1 className='signIn'>Sign in</h1>
             <p className='inStruction'>Enter your details to continue your learning path</p>
             <input className='email' value={email} onChange={(e) => setEmail(e.target.value)} type="email" name="Email address" required="" placeholder="Email address" autocomplete="off" /><br />
-            {error.email && <p style={{ color: "red" }} > {error.email} </p>}
+            {error.email && <p style={{ color: "red", marginBottom: '20px'}} > {error.email} </p>}
+            <div className='passwordInput'>
             <input className='password' type={showPassword ? "text" : "password"} value={password} onChange={(e) => setPassword(e.target.value)} name="Password" required="" placeholder="Password" autocomplete="off" />
-            <p className='showPass' onClick={handleToogle}> {showPassword ? "HIDE" : "SHOW"} </p>
+            <span className='showPass' onClick={handleToogle}> {showPassword ? "HIDE" : "SHOW"} </span>
+            </div>
             <br />
             {error.password && <p style={{ color: "red" }} > {error.password} </p>}
             <button className='btnLogin' onClick={handleSubmit}>Start Learning</button>
