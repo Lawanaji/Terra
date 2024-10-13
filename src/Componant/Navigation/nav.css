@@ -35,6 +35,9 @@
     text-decoration: none;
     cursor: pointer;
    }
+   .nav__link:hover {
+    color: #52A350;
+   }
    .mobile-container{
     display: none;
 }
