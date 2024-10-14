@@ -11,7 +11,7 @@ const Mobile = () => {
         
         {/* <NavLink to="/"><img src={logo} alt="" /></NavLink> */}
       <ul className="flex flex-col gap-6">
-        <li className="nav__item"><NavLink className="nav__link" to="bootcamp">Bootcamp</NavLink> </li>
+        <li className="nav__item"><NavLink className="nav__link" to="/bootcamp">Bootcamp</NavLink> </li>
         
         <li className="nav__item"><NavLink className="nav__link" to="/blog">Blog</NavLink></li>
         
