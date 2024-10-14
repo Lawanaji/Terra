@@ -44,13 +44,13 @@ const Footer = () => {
               <li>Olorunda abaa, Akobo, Ibadan, NG</li>
                 </ul>
           </div>
-          <p className='w-full text-[#666582]'>   © Copyright. All Rights Reserved Terra Holding Limited</p>
+          <p className='w-full text-[#666582] hidden md:block'>   © Copyright. All Rights Reserved Terra Holding Limited</p>
         </div>
         
         {/* Social Media Buttons */}
         <div className="">
           <p className="text-3xl mb-10 font-bold">Follow us</p>
-          <div className="flex gap-x-5">
+          <div className="flex gap-x-1 md:gap-x-5">
             {/* LinkedIn Button */}
             <button className="bg-[#52A350] rounded-[3px] py-2 px-4 hover:bg-white hover:text-[#52A350] hover:scale-105">
               <a href="https://www.linkedin.com/company/terra-learning/" target="_blank" rel="noopener noreferrer" className="flex items-center">
@@ -91,6 +91,7 @@ const Footer = () => {
         </div>
         
        
+      <p className='w-full text-[#666582] block md:hidden'>   © Copyright. All Rights Reserved Terra Holding Limited</p>
       </section>
     </main>
   </footer>

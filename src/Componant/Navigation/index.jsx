@@ -29,7 +29,7 @@ const Navbar = () => {
           <NavLink to="/"><img src={logo} alt="Logo" /></NavLink>
 
           <ul className='hidden md:flex justify-start items-center gap-[10rem]'>
-            <li className="nav__item"><NavLink className="nav__link" to="">Bootcamp</NavLink></li>
+            <li className="nav__item"><NavLink className="nav__link" to="/bootcamp">Bootcamp</NavLink></li>
             <li className="nav__item"><NavLink className="nav__link" to="/blog">Blog</NavLink></li>
           </ul>
 
