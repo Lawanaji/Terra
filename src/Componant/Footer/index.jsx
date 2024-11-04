@@ -5,7 +5,6 @@ const Footer = () => {
   return (
     <footer className="bg-[#1A1F1A] font-body-new h-[60%] text-white ">
       <main>
-        {/* First Section */}
         <section className=" md:flex justify-between container py-24">
           <div className="">
             <header className="leading-8 mb-8">
