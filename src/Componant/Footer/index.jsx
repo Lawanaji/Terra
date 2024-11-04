@@ -44,7 +44,9 @@ const Footer = () => {
                 <Link to="CONTACT US">CONTACT US</Link>
                 <p> Get in touch</p>
                 <li>+234-907-957-7366</li>
-                <Link to="mailto:tawtome83@gmail.com">tawtome83@gmail.com</Link>
+                <Link to="mailto:tickets@signaladoc-ltd-aaqqmx.p.tawk.email">
+                  tawtome83@gmail.com
+                </Link>
 
                 <li>Olorunda abaa, Akobo, Ibadan, NG</li>
               </ul>
